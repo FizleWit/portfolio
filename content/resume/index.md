@@ -6,7 +6,10 @@ draft: false
 tags: ["homelab", "personal development", "projects"]
 showAuthor: false
 ---
-Download Resume [HERE](files/resume.pdf)# Amine Sabil's CV
+Download Resume [HERE](files/resume.pdf)
+
+
+# Amine Sabil's CV
 
 - Location: Virgina
 - LinkedIn: [aminesabil](https://linkedin.com/in/aminesabil)
