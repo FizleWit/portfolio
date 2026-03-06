@@ -1,0 +1,7 @@
+services:
+  hugo:
+    build: .
+    volumes:
+      - .:/site   # Mount the repo root
+    ports:
+      - "1313:1313"
