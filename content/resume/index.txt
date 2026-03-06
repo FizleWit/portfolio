@@ -7,3 +7,4 @@ tags: ["homelab", "personal development", "projects"]
 showAuthor: false
 ---
 Download Resume [HERE](files/resume.pdf)
+
