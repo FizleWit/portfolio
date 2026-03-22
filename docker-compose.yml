@@ -1,5 +1,6 @@
 services:
   hugo:
+    platform: linux/amd64
     build: .
     volumes:
       - .:/site   # Mount the repo root
