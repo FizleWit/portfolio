@@ -38,7 +38,7 @@
 [[main]]
   name = "Authentik"
   parent = "Quick Links"
-  url = "https://authentik.dopeamine.tech"
+  url = "links/authentik"
   weight = 10
 
 [[main]]

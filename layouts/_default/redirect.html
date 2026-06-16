@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>Checking...</title>
+</head>
+<body>
+<script>
+fetch('{{ .Params.target }}', {
+  method: 'HEAD',
+  mode: 'no-cors'
+})
+.then(() => {
+  window.location.href = '{{ .Params.target }}';
+})
+.catch(() => {
+  window.location.href = '/404/';
+});
+</script>
+
+<p>Checking service availability...</p>
+</body>
+</html>
