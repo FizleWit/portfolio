@@ -1,7 +1,5 @@
 ---
 title: "Authentik"
 layout: "redirect"
-#target: "https://dopeamine.tech"
-target: "https://youtube.com"
+target: "https://authentik.dopeamine.tech"
 ---
-sdfsafds

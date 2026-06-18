@@ -38,13 +38,13 @@
 [[main]]
   name = "Authentik"
   parent = "Quick Links"
-  url = "links/authentik"
+  url = "/links/authentik"
   weight = 10
 
 [[main]]
   name = "Jellyfin"
   parent = "Quick Links"
-  url = "https://jellyfin.dopeamine.tech/sso/OID/start/authentik"
+  url = "/links/jellyfin"
   weight = 20
 
 [[main]]
