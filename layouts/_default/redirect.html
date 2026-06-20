@@ -1,0 +1,37 @@
+<html>
+<head>
+  <title>Checking...</title>
+  <meta charset="utf-8">
+</head>
+<body>
+<p>Checking service availability...</p>
+
+<script>
+const target = "{{ .Params.target }}";
+
+function go404() {
+  window.location.href = "/links/404";
+}
+
+// timeout fallback
+const timeout = setTimeout(go404, 4000);
+
+// try loading via Image ping (more reliable than fetch)
+const img = new Image();
+
+img.onload = function () {
+  clearTimeout(timeout);
+  window.location.href = target;
+};
+
+img.onerror = function () {
+  clearTimeout(timeout);
+  go404();
+};
+
+// trigger request
+img.src = target + "/favicon.ico?check=" + Date.now();
+</script>
+
+</body>
+</html>

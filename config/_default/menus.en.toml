@@ -10,15 +10,15 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-[[main]]
-  name = "About"
-  pageRef = "about"
-  weight = 1
+#[[main]]
+#  name = "About"
+#  pageRef = "about"
+#  weight = 1
 
-[[main]]
-  name = "Home Lab"
-  pageRef = "homelab"
-  weight = 3
+#[[main]]
+#  name = "Home Lab"
+#  pageRef = "homelab"
+#  weight = 3
 
 [[main]]
   name = "Resume"
@@ -38,13 +38,13 @@
 [[main]]
   name = "Authentik"
   parent = "Quick Links"
-  url = "https://authentik.dopeamine.tech"
+  url = "/links/authentik"
   weight = 10
 
 [[main]]
   name = "Jellyfin"
   parent = "Quick Links"
-  url = "https://jellyfin.dopeamine.tech/sso/OID/start/authentik"
+  url = "/links/jellyfin"
   weight = 20
 
 [[main]]

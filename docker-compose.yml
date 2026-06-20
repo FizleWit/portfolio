@@ -1,5 +1,7 @@
 services:
   hugo:
+    container_name: hugo_dev
+    restart: unless-stopped
     platform: linux/amd64
     build: .
     volumes:
