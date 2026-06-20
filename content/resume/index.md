@@ -1,8 +1,6 @@
 ---
 title: "Amine Sabil Resume"
-date: 2025-12-31
 draft: false
-
 tags: ["homelab", "personal development", "projects"]
 showAuthor: false
 ---
@@ -36,6 +34,24 @@ Download Resume [HERE](files/resume.pdf)
 
 
 # Experience
+## **Software Engineer**
+
+*Herndon, VA*
+
+*Mar 2026 – July 2026*
+
+*Obscurity Labs*
+
+- Designed and developed microservices using Python and FastAPI, leveraging Temporal for long running asynchronous background tasks.
+
+- Implemented and tested OPA policies via REGO to securely include network based ABAC policies.
+
+- Implemented Zero Trust microservices security, utilizing an enriched JWT authentication.
+
+- Architected a Kubernetes GitOps framework by implementing an App of Apps pattern with custom helm charts, standardizing microservice deployments.
+
+
+
 ## **Security Engineer**
 
 *Chantilly, VA*
@@ -72,7 +88,7 @@ Download Resume [HERE](files/resume.pdf)
 
 - Maintaned and Operated a legacy system critical to software supply chain operations.
 
-- Full-stack engineer developing in primarily in **Python** and React, with other languages as necessary.
+- Full-stack engineer developing in primarily in Python and React, with other languages as necessary.
 
 - Carried out assigned Jira tickets to review business logic in a dynamic and adaptable software development process.
 
@@ -104,6 +120,22 @@ Download Resume [HERE](files/resume.pdf)
 
 
 
+## **Freelance Full Stack Web Developer**
+
+*Chicago, IL*
+
+*May 2020 – Aug 2020*
+
+*Magitech PC*
+
+- Collaborated closely with the business owner to gather feedback and implemented improvements to meet evolving business needs.
+
+- Created a user-friendly interface with intuitive navigation, ensuring a seamless user experience for clients.
+
+- Utilized iterative design process to implement customer needs and improve user
+
+
+
 # Projects
 ## **[Computer Desktop Screen Recording Application](https://github.com/FizleWit/Sabil_Shot)**
 
@@ -129,23 +161,19 @@ Download Resume [HERE](files/resume.pdf)
 
 *present*
 
-- Media Server
+- Media Server,  Burned dvds to host locally and stream from any device, anywhere.
 
-  - Burned dvds to host across all devices & watch from anywhere
+- Private Cloud, Service akin to Google Drive hosting an Office Suite of tools with additional features.
 
-- Nextcloud
+- Authentication Provider, Host my own OpenID Connect provider to protect private applications. Integrated with 3rd party Identity Providers.
 
-  - Service akin to Google Drive hosting an Office Suite of tools with additional features
-
-- DNS Sinkhole
-
-  - Networkwide add blocking protecting my devices from malicious attacks
+- DNS Sinkhole, Networkwide add blocking protecting my devices from malicious attacks.
 
 
 
 # Additional Information
 **Skills:** IT Support ◦ Remote Techinical Support ◦ M365 Suite ◦ Linux (Ubuntu, Arch) ◦ Windows ◦ Networking ◦ Debugging ◦ Communication ◦ Creativity ◦ Patience
 
-**Technologies:** Kubernetes ◦ Django ◦ Celery ◦ RabbitMQ ◦ Tauri ◦ FFmpeg ◦ QEMU ◦ **AWS** ◦ GIMP ◦ Blender ◦ Whisper ◦ Docker ◦ Jenkins ◦ Selenium
+**Technologies:** Kubernetes ◦ Django ◦ Celery ◦ RabbitMQ ◦ Tauri ◦ FFmpeg ◦ QEMU ◦ AWS ◦ GIMP ◦ Blender ◦ Whisper ◦ Docker ◦ Jenkins ◦ Selenium
 
-**Programming Languages:** **Python** ◦ Rust ◦ Javascript ◦ Visual Basic ◦ NI: LabView ◦ C# ◦ SQL ◦ Kotlin
+**Programming Languages:** Python ◦ Rust ◦ Javascript ◦ Visual Basic ◦ NI: LabView ◦ C# ◦ SQL ◦ Kotlin
