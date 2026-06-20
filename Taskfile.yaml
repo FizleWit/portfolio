@@ -1,0 +1,53 @@
+version: '3'
+
+tasks:
+  build:
+    desc: Build the Hugo Docker image
+    cmds:
+    - docker compose build
+
+  up:
+    desc: Start Hugo development server
+    cmds:
+    - docker compose up
+
+  up-detached:
+    desc: Start Hugo development server in background
+    cmds:
+    - docker compose up -d
+
+  down:
+    desc: Stop and remove containers
+    cmds:
+    - docker compose down
+
+  restart:
+    desc: Restart Hugo development server
+    cmds:
+    - docker compose restart
+
+  logs:
+    desc: Follow Hugo container logs
+    cmds:
+    - docker compose logs -f hugo
+
+  shell:
+    desc: Open a shell in the Hugo container
+    cmds:
+    - docker compose run --rm hugo bash
+
+  hugo-version:
+    desc: Show installed Hugo version
+    cmds:
+    - docker compose run --rm hugo hugo version
+
+  clean:
+    desc: Stop containers and remove volumes
+    cmds:
+    - docker compose down -v
+
+  default:
+    desc: Build and start Hugo
+    cmds:
+    - task: build
+    - task: up

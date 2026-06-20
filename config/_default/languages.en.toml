@@ -21,11 +21,11 @@ imageQuality = 96
 headline = "I'm only human"
 bio = "A little bit about you how does it go here right?"
 links = [
-  { email = "mailto:hello@your_domain.com" },
-  { link = "https://link-to-some-website.com/" },
+  #{ email = "mailto:hello@your_domain.com" },
+  { link = "https://dopeamine.tech/" },
   { github = "https://github.com/fizlewit" },
   { linkedin = "https://www.linkedin.com/in/aminesabil/" },
-  { stack-overflow = "https://stackoverflow.com/users/userid/username" },
-  { steam = "https://steamcommunity.com/profiles/userid" },
-  { telegram = "https://t.me/username" },
+  #{ stack-overflow = "https://stackoverflow.com/users/userid/username" },
+  #{ steam = "https://steamcommunity.com/profiles/userid" },
+  #{ telegram = "https://t.me/username" },
 ]
