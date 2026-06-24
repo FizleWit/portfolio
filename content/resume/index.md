@@ -1,5 +1,5 @@
 ---
-title: "Amine Sabil Resume"
+title: ""
 draft: false
 tags: ["homelab", "personal development", "projects"]
 showAuthor: false

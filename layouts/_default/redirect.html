@@ -1,10 +1,10 @@
-<html>
-<head>
-  <title>Checking...</title>
-  <meta charset="utf-8">
-</head>
-<body>
-<p>Checking service availability...</p>
+{{ define "main" }}
+<div class="flex flex-col items-center justify-center py-20">
+  <h1 class="text-2xl font-bold">Checking service availability...</h1>
+  <p class="mt-4 text-neutral-500">
+    Redirecting if the service is available.
+  </p>
+</div>
 
 <script>
 const target = "{{ .Params.target }}";
@@ -13,10 +13,8 @@ function go404() {
   window.location.href = "/links/404";
 }
 
-// timeout fallback
 const timeout = setTimeout(go404, 4000);
 
-// try loading via Image ping (more reliable than fetch)
 const img = new Image();
 
 img.onload = function () {
@@ -29,9 +27,6 @@ img.onerror = function () {
   go404();
 };
 
-// trigger request
 img.src = target + "/favicon.ico?check=" + Date.now();
 </script>
-
-</body>
-</html>
+{{ end }}

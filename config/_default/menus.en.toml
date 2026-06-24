@@ -48,6 +48,12 @@
   weight = 20
 
 [[main]]
+  name = "Seafile"
+  parent = "Quick Links"
+  url = "/links/seafile"
+  weight = 30
+
+[[main]]
   identifier = "github"
   pre = "github"
   url = "https://github.com/fizlewit"
