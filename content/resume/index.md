@@ -25,7 +25,7 @@ Download Resume [HERE](files/resume.pdf)
 
 *Herndon, VA*
 
-*May 2025 – present*
+*Apr 2026 – present*
 
 *Obscurity Labs*
 
@@ -43,19 +43,13 @@ Download Resume [HERE](files/resume.pdf)
 
 - Contributed to Kubernetes-hosted infrastructure following GitOps practices and the App-of-Apps construct using Helm and Argo CD.
 
-- Successfully led a high-risk production data migration for a critical system table, preventing data loss and downtime with no customer impact, in anticipation of NVD CVSS v4.
-
-- Implemented regression and end-to-end tests to ensure code changes did not modify legacy delivery format.
-
-- Actively participated in the software development, testing, and peer review process utilizing Scaled Agile Frameworks.
-
 
 
 ## **Security Engineer**
 
 *Chantilly, VA*
 
-*Mar 2026*
+*May 2025 – Mar 2026*
 
 *Obscurity Labs*
 
@@ -71,17 +65,37 @@ Download Resume [HERE](files/resume.pdf)
 
 
 
-# Education
-## **University of Pittsburgh**
-*May 2023*
+## **Software Engineer**
 
-*BS* *in* *Computer Information Systems and Technolgy*
+*Ashburn, VA*
 
-- Focus in Software Application Development
+*Nov 2023 – May 2025*
+
+*Obscurity Labs*
+
+- Successfully led a high-risk production data migration for a critical system table, preventing data loss and downtime with no customer impact, in anticipation of NVD CVSS v4.
+
+- Implemented regression and end-to-end tests to ensure code changes did not modify legacy delivery format.
+
+- Actively participated in the software development, testing, and peer review process utilizing Scaled Agile Frameworks.
 
 
 
 # Projects
+## **[HomeLab Services](https://dopeamine.tech)**
+
+*present*
+
+- Media Sersver: Professgionally digitized and organized DVD library, enabling secure local hosting and seamless streaming.
+
+- Private Cloud: Secure self-hosted storage with an integrated office suite and enhanced collaboration tools.
+
+- Authentication Provider: Self-hosted OpenID Connect service with third-party identity provider integration.
+
+- DNS Sinkhole: Network-wide ad blocking and protection against malicious domains and attacks.
+
+
+
 ## **[Computer Desktop Screen Recording Application](https://github.com/FizleWit/Sabil_Shot)**
 
 *Apr 2023*
@@ -98,21 +112,17 @@ Download Resume [HERE](files/resume.pdf)
 
 
 
-## **[HomeLab Services](https://dopeamine.tech)**
+# Education
+## **University of Pittsburgh**
+*May 2023*
 
-*present*
+*BS* *in* *Computer Information Systems and Technolgy*
 
-- Media Server: Professionally digitized and organized DVD library, enabling secure local hosting and seamless streaming.
-
-- Private Cloud: Secure self-hosted storage with an integrated office suite and enhanced collaboration tools.
-
-- Authentication Provider: Self-hosted OpenID Connect service with third-party identity provider integration.
-
-- DNS Sinkhole: Network-wide ad blocking and protection against malicious domains and attacks.
+- Focus in Software Application Development
 
 
 
 # Additional Information
-**Technologies:** Kubernetes ◦ Django ◦ Celery ◦ RabbitMQ ◦ Tauri ◦ FFmpeg ◦ QEMU ◦ AWS ◦ GIMP ◦ Blender ◦ Whisper ◦ Docker ◦ Jenkins ◦ Selenium ◦ M365 Suite ◦ Linux (Ubuntu, Arch) ◦ Windows ◦ Git ◦ Helm ◦ Argo
+**Technologies:** Kubernetes ◦ Django ◦ Celery ◦ RabbitMQ ◦ Tauri ◦ FFmpeg ◦ QEMU ◦ AWS ◦ GIMP ◦ Blender ◦ Whisper ◦ Docker ◦ Jenkins ◦ Selenium ◦ M365 Suite ◦ Linux (Ubuntu, Arch) ◦ Windows ◦ Git ◦ Helm ◦ Argo CD
 
 **Programming Languages:** Python ◦ Rust ◦ JavaScript  ◦ C# ◦ SQL ◦ Kotlin ◦ Bash ◦ HTML/CSS ◦ NI LabView
