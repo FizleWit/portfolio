@@ -7,26 +7,27 @@
 </div>
 
 <script>
-const target = "{{ .Params.target }}";
+(() => {
+  const target = {{ .Params.target }};
 
-function go404() {
-  window.location.href = "/links/404";
-}
+  function go404() {
+    window.location.href = "/links/404";
+  }
 
-const timeout = setTimeout(go404, 4000);
+  const timeout = setTimeout(go404, 5000);
 
-const img = new Image();
-
-img.onload = function () {
-  clearTimeout(timeout);
-  window.location.href = target;
-};
-
-img.onerror = function () {
-  clearTimeout(timeout);
-  go404();
-};
-
-img.src = target + "/favicon.ico?check=" + Date.now();
+  fetch(target, {
+    method: "GET",
+    mode: "no-cors"
+  })
+  .then(() => {
+    clearTimeout(timeout);
+    window.location.href = target;
+  })
+  .catch(() => {
+    clearTimeout(timeout);
+    go404();
+  });
+})();
 </script>
 {{ end }}
