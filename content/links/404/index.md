@@ -1,5 +1,5 @@
 ---
-title: "Starting A Homelab"
+title: "SORRY"
 showDate: false
 showReadingTime: false
 draft: false
