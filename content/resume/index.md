@@ -86,7 +86,7 @@ Download Resume [HERE](files/resume.pdf)
 
 *present*
 
-- Media Sersver: Professgionally digitized and organized DVD library, enabling secure local hosting and seamless streaming.
+- Media Server: Professionally digitized and organized DVD library, enabling secure local hosting and seamless streaming.
 
 - Private Cloud: Secure self-hosted storage with an integrated office suite and enhanced collaboration tools.
 
