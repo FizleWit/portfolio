@@ -19,3 +19,19 @@ The computer sees an ordinary USB filesystem containing a file called linux.iso.
 The ISO's disk/boot structure gets written to the USB.
 
 fsync to tell dd to wait for the contents of the drive to be the same as 
+
+----
+
+sudo dislocker -r -V /dev/sdc3 -p -- /mnt/bitlocker  
+
+sudo mount -t ntfs3 -o ro,loop /mnt/bitlocker/dislocker-file /mnt/windows
+
+
+#rsync -rahv --progress sabil /run/media/amine/OtherStuff/fff
+
+sudo rsync -raHAXv --info=progress2 --bwlimit=10M /mnt/windows/Users/ /run/media/amine/OtherStuff/
+    
+    sudo dmesg -w
+make a sector-level image
+
+---
